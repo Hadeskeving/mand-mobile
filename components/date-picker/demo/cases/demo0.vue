@@ -12,7 +12,8 @@
   </div>
 </template>
 
-<script>import {DatePicker} from 'mand-mobile'
+<script>
+import {DatePicker} from 'mand-mobile'
 
 export default {
   name: 'date-picker-demo',
@@ -28,7 +29,7 @@ export default {
     return {
       minDate: new Date('2013/9/9'),
       maxDate: new Date('2020/9/9'),
-      currentDate: new Date(),
+      currentDate: new Date('2013/3/3'),
     }
   },
   methods: {
@@ -37,4 +38,5 @@ export default {
     },
   },
 }
-</script>
+
+</script>
